@@ -21,7 +21,7 @@ class Ship:
                 deck = Deck(start_x, y_coord)
                 self.decks.append(deck)
         elif start_y == end_y:  # Vertical
-            for x_coord in range(start_x, end_y + 1):
+            for x_coord in range(start_x, end_x + 1):
                 deck = Deck(x_coord, start_y)
                 self.decks.append(deck)
 
